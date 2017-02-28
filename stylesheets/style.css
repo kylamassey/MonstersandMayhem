@@ -1,0 +1,421 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+  #getout {
+    min-height: 100%;
+
+  }
+
+  #shine {
+    max-height: 100%;
+
+  }
+  #clover {
+    max-height: 100%;
+  }
+  #alien {
+    max-height: 100%;
+    /*margin-left: 25%;*/
+  }
+  #darkwas {
+    max-height: 100%;
+    /*margin-left: 99%;*/
+  }
+  #breathless {
+    max-height: 100%;
+    /*margin-left: 25%;*/
+  }
+  #halloween {
+    max-height: 100%;
+    /*margin-left: 99%;*/
+  }
+  #itfollows {
+    max-height: 100%;
+    /*margin-left: 25%;*/
+  }
+  #theright {
+    max-height: 100%;
+    /*margin-left: 99%;*/
+  }
+  #nightmare {
+    max-height: 100%;
+    /*margin-left: 20%;*/
+
+  }
+  #rosemary {
+    max-height: 100%;
+   /* margin-left: 99%;*/
+  }
+  #poltergeist {
+    max-height: 100%;
+    /*margin-left: 25%;*/
+  }
+  #teeth {
+    max-height: 75%;
+    /*margin-left: 99%;*/
+  }
+  #witch {
+    max-height: 100%;
+    /*margin-left: 25%;*/
+  }
+
+  .vid {
+    padding-top: 20%;
+  }
+
+  #posterdiv {
+    margin-right:50%;
+  }
+
+/*----------------------------------carousel------------------------------------------
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn via Bootsnipp.com
+Image credits: the internet via google.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s;
+        -ms-transition: 2s all ease-in-out .1s;
+         -o-transition: 2s all ease-in-out .1s;
+            transition: 2s all ease-in-out .1s;
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .2;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(http://wallpapercave.com/wp/uQtT3uA.jpg);
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(http://wallpapercave.com/wp/0rAV0co.jpg);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(https://1.bp.blogspot.com/-qMrN9PmA_Yc/Um6Nrq2k6nI/AAAAAAAABPg/6yTq7AH58uw/s1600/Horror-Hand-HD-1024x576.jpg);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }
+}
+
+  /*---------------------------------parallax-----------------------------------------*/
+
+
+
+.parallax {
+  /*   The image used */
+    height: 100%;
+    background-image: url('../images/shiningcarpet.jpg');
+
+   /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax3 {
+  /*   The image used */
+    height: 20%;
+    background-image: url('../images/shiningcarpet.jpg');
+
+   /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container-fluid{margin: 0; padding: 0; height: 100%;}
+.embed-responsive{height: 100%;}
+
+.title {
+  color: rgb(242, 60, 43);
+  font-family: 'Cutive', serif;
+  margin-top: 20%;
+  padding-top: 2%;
+  font-size: 40px;
+  background-color: white;
+}
+
+.bgwhite {
+  background-color: white;
+  font-family:'Montserrat', sans-serif;
+  color: rgb(214, 104, 72);
+  min-height: 100%;
+  padding-top: 5%;
+}
+
+#textp {
+  color: grey;
+  font-size: 18px;
+  line-height: 150%;
+  padding-bottom: 3%;
+}
+
+h1 {
+  color: white;
+}
+
+.mantra {
+  color: black;
+}
+
+
+
+span {
+   color: rgb(217, 43, 38);
+}
+
+/*/*---------------Beginning of css for video section layout---------------------- */
+
+/*.projects{
+    padding:70px 0;
+    min-height: 100%;
+}
+h6.description{
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #999;
+  border-bottom: 1px solid rgba(0, 0, 0,0.1);
+  padding-bottom: 5px;
+}
+.profile{
+  margin-top: 25px;
+}
+.profile h1{
+  font-weight: normal;
+  font-size: 20px;
+  margin:10px 0 0 0;
+}
+.profile h2{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+.profile .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+.profile .img-box:after{
+  content:"";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.img-box ul{
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  height: 0px;
+  margin:0px;
+  opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+  -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.img-box ul li{
+  width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #88C425;
+    margin: 2px;
+    padding: 5px;
+  display: inline-block;
+}
+.img-box a{
+  color:#fff;
+}
+.img-box:hover:after{
+  opacity: 1;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.img-box ul a{
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+  border-color: #fff;
+  color: #88C425;
+}
+a{
+    color:#88C425;
+}
+a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+i.red{
+    color:#BC0213;
+}
+*/
+/*----------------------------Footer Styling-------------------------------------------------*/
+
+body {
+  margin-bottom: 150px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0,0,0);
+  text-align: center;
+  padding-top: 1.5%;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-github {
+  color: white ;
+}
+
+.fa-file-pdf-o {
+  color: #ce2339;
+}
+
+.resumediv {
+    width: 100%;
+    min-height: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgba(253,255,248,.3);
+    margin-top:20px;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+}
+
+.fa-link {
+  color: rgb(214, 104, 72);
+}
+
+
+

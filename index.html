@@ -1,10 +1,475 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-	<title></title>
-	<script type="text/javascript" src="index.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cutive" rel="stylesheet">
+
+  <link rel='stylesheet' href='stylesheets/bootstrap.css' />
+  <link rel="stylesheet" href="https://use.fontawesome.com/6def7c71ae.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <script src="https://use.fontawesome.com/6def7c71ae.js"></script>
+  <title>Monsters & Mayhem</title>
+
+
 </head>
+
 <body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Monsters & Mayhem</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Connect</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>Monsters & Mayhem</h1>
+            <h3>We're commited to listing quality scary movies</h3>
+        </hgroup>
+        <!-- <button class="btn btn-hero btn-lg" role="button">explore</button> -->
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>Scary movies are iconic</h1>
+            <h3>Some of our best memories are huddling in fear</h3>
+        </hgroup>
+        <!-- <button class="btn btn-hero btn-lg" role="button">explore</button> -->
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>Suspense brings us closer together</h1>
+            <h3>Join us</h3>
+        </hgroup>
+        <button class="btn btn-hero btn-lg" role="button">explore</button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bgwhite">
+    <div class="container ptb">
+      <div class="row">
+        <h1 class="text-center mantra">
+          Monsters & Mayhem
+          <br> is <br>
+          the home of horror.
+        </h1>
+        <div class="col-md-6 col-md-offset-3 text-center p1">
+          <p id="textp">
+            We believe in the goodness of a <span>twisted plot</span> we fill our hearts with <span>suspicious hope</span> and watch in suspense, as our favorite and least favorite characters alike, <span>fight to survive</span>. We cheer on victories, with an every watchful eye towards <span>disaster</span>, and always wait for the hint of a mostly dreaded sequel.
+          </p>
+        </div>
+        <div class="col-md-6 col-md-offset-3 text-center p2">
+          <p id="textp">
+            We are the in the shadows whispering <span>"behind you!"</span> looking for the next fix of adrienline, while boasting "I told you so" after the death of a beloved secondary character. We are <span>Monsters & Mayhem</span>. We strive to find the best horror movies out there, <span>come watch with us</span>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt5052448/">
+            <img id="getout" src="images/getout.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+        <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DzfpyUB60YY" frameborder="0" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt0081505/?ref_=nv_sr_1">
+            <img src="images/shiningposter.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+        <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5Cb3ik6zP2I" frameborder="0" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+  </div>
+
+
+   <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+    </div>
+
+
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt1179933/?ref_=fn_al_tt_1">
+            <img src="images/10cloverfieldart.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+        <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/saHzng8fxLs" frameborder="0" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt0078748/?ref_=fn_al_tt_1">
+            <img src="images/alienanni.png" class="img-thumbnail"><br>
+          </a>
+        </div>
+        <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LjLamj-b0I8" frameborder="0" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt2251281/?ref_=nv_sr_1">
+            <img src="images/darkwasposter.jpg" class="img-thumbnail"><br>
+          </a>
+         </div>
+        <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LeYJmGaMaSU" frameborder="0" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt4160708/?ref_=fn_al_tt_1">
+            <img src="images/dontbreatheposter.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/76yBTNDB6vU" frameborder="0" allowfullscreen></iframe>
+          </a>
+        </div>
+      </div>
+  </div>
+
+
+   <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt0077651/?ref_=fn_al_tt_1">
+            <img src="images/Halloweenpoststairs.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xHuOtLTQ_1I" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt3235888/?ref_=fn_al_tt_1">
+            <img src="images/itfollowspost.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HkZYbOH0ujw" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt1139797/?ref_=nv_sr_1">
+            <img src="images/lettherightposterhands.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ICp4g9p_rgo" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </div>
+
+    <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt0087800/?ref_=fn_al_tt_6">
+            <img src="images/nightmarelarge.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dCVh4lBfW-c" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </div>
+
+
+    <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-12 col-text-center title">Monsters <br>& Mayhem</div> -->
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt0063522/?ref_=fn_al_tt_1">
+            <img src="images/rosemarycrib.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ffw1u0aXn0o" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt0084516/?ref_=fn_al_tt_1">
+            <img src="images/poltergeistpost.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/HD2sz9RVzfM" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt0780622/?ref_=nv_sr_1">
+            <img src="images/teeth.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LCGbdgm0B_Q" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+  </div>
+
+  <div class="parallax3">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-md-6 col-md-offset-3 text-center title">WELCOME HOME</div> -->
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row"></div>
+      <div class="row img-thumbnails">
+        <div class="col-md-6">
+          <a href="http://www.imdb.com/title/tt4263482/?ref_=fn_al_tt_1">
+            <img src="images/thewitch.jpg" class="img-thumbnail"><br>
+          </a>
+        </div>
+      <div class="col-md-6 vid">
+          <a href="#">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iQXmlf3Sefg" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+              <a href='https://twitter.com/KylaSMassey'><i class="fa fa-twitter fa-3x fa-fw"></i></a>
+              <a href='https://www.linkedin.com/in/kylamassey/'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+              <a href='https://github.com/kylamassey'><i class="fa fa-github fa-3x fa-fw"></i></a>
+              <a href='https://raw.githubusercontent.com/kylamassey/kylamassey.github.io/master/images/Kyla%20Massey%20Web%20Devoloper%20%26%20Designer.png'><i class="fa fa-file-pdf-o fa-3x fa-fw"></i></a>
+            </span>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="js/index.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 </body>
+
+
+
 </html>
